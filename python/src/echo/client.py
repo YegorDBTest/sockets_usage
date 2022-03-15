@@ -1,6 +1,6 @@
 import socket
 
-from .settings import HOST, PORT
+from settings import HOST, PORT
 
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
